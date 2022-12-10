@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "WCT_Lab5" content = "Contact Form">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h3>Contact Form</h3>
+    <div class = "form">
+        <!-- all tags in form tag are submit to that file in the form -->
+        <form action = "/action_page.php">
+            <label for = "first-name">First Name</label>
+            <input type = "text" id = "first-name" name = "firstname" placeholder = "Your name..">
+
+            <label for = "last-name">Last Name</label>
+            <input type = "text" id = "last-name" name = "lastname" placeholder = "Your last name..">
+
+            <label for = "subject">Subject</label>
+            <textarea id = "subject" name = "subject" placeholder = "Write something.." style = "height: 180px;"></textarea>
+
+            <input type = "submit" value = "Submit">
+        </form>
+    </div>
+</body>
+</html>

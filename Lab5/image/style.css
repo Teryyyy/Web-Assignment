@@ -1,0 +1,42 @@
+.image {
+    position: relative;
+}
+
+.image > img {
+    width: 100%;
+}
+
+.image > p {
+    font-size: large;
+    font-weight: bold;
+}
+
+#top_left {
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+
+#top_right {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+#centered {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+
+#bottom_left {
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+}
+
+#bottom_right {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+}

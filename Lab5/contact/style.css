@@ -1,0 +1,47 @@
+.form {
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+input[type = text], textarea {
+    width: 100%;
+    padding: 3% 3%;
+    display: inline-block;
+    margin: 2% 0 4%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type = submit] {
+    background-color: rgb(0, 187, 103);
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+input[type = submit]:hover {
+    background-color: rgb(0, 169, 79);
+    cursor: pointer;
+}
+
+h3 {
+    font-family: tahoma;
+    font-weight: 900;
+}
+
+label {
+    font-family: tahoma;
+}
+
+textarea::placeholder {
+    font-family: courier;
+}
+
+body {
+    margin-left: 5%;
+}

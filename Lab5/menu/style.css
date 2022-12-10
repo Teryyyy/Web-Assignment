@@ -1,0 +1,48 @@
+.vertical-menu {
+    width: 15%;
+}
+
+.vertical-menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #eee;
+    padding: 15px;
+}
+
+.vertical-menu a:hover {
+    background-color: lightgrey;
+}
+
+.vertical-menu a.active {
+    background-color: rgb(17, 173, 84);
+    color: white;
+}
+/* 
+.v-menu a:hover {
+    background-color: lightgrey;
+} */
+
+.horizontal-menu {
+    width: 35%;
+    list-style-type: none;
+    background-color: rgb(35, 35, 35);
+    padding: 25px 0;
+    margin-top: 15px;
+}
+
+.horizontal-menu li {
+    display: block;
+    float: left;
+}
+
+.horizontal-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.horizontal-menu a:hover {
+    background-color: black;
+}
